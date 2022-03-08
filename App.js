@@ -28,7 +28,10 @@ function DirectoryStackScreen() {
           color: isDarkMode ? 'white' : 'black',
         },
       }}>
-      <DirectoryStack.Screen name="Directory" component={EmployeeDirectory} />
+      <DirectoryStack.Screen
+        name="Employee Directory"
+        component={EmployeeDirectory}
+      />
       <DirectoryStack.Screen name="Details" component={DetailsScreen} />
     </DirectoryStack.Navigator>
   );

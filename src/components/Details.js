@@ -1,7 +1,7 @@
 import {useTheme} from '@react-navigation/native';
 import {useStoreState} from 'pullstate';
 import React from 'react';
-import {StyleSheet, useColorScheme, View} from 'react-native';
+import {StyleSheet, View} from 'react-native';
 import {Avatar, Card, ListItem, Text} from 'react-native-elements';
 import Icon from 'react-native-vector-icons/Ionicons';
 import EmployeeStore from '../store/EmployeeStore';
@@ -11,7 +11,6 @@ export default function DetailsScreen({route}) {
   const {id} = route.params;
   const employee = useStoreState(EmployeeStore, getEmployee(id));
 
-  const isDarkMode = useColorScheme() === 'dark';
   const {colors} = useTheme();
 
   const styles = StyleSheet.create({

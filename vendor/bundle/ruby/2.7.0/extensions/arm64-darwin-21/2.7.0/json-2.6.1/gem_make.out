@@ -1,0 +1,13 @@
+current directory: /Users/conner/Documents/code/IonicPerfRN/vendor/bundle/ruby/2.7.0/gems/json-2.6.1/ext/json
+/Users/conner/.rvm/rubies/ruby-2.7.4/bin/ruby -I /Users/conner/.rvm/rubies/ruby-2.7.4/lib/ruby/2.7.0 -r ./siteconf20220307-73023-3npb5p.rb extconf.rb
+creating Makefile
+
+current directory: /Users/conner/Documents/code/IonicPerfRN/vendor/bundle/ruby/2.7.0/gems/json-2.6.1/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/conner/Documents/code/IonicPerfRN/vendor/bundle/ruby/2.7.0/gems/json-2.6.1/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/conner/Documents/code/IonicPerfRN/vendor/bundle/ruby/2.7.0/gems/json-2.6.1/ext/json
+make "DESTDIR=" install

@@ -12,6 +12,7 @@ target 'IonicPerfRN' do
     :hermes_enabled => false
   )
 
+
   target 'IonicPerfRNTests' do
     inherit! :complete
     # Pods for testing

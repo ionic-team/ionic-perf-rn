@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* IonicPerfRNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* IonicPerfRNTests.m */; };
+		1304DD0F27D92A14008E79AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1304DD0D27D92A12008E79AB /* LaunchScreen.storyboard */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		B49B07EC9EA582BAB1402C94 /* libPods-IonicPerfRN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9628BF530249CC45BAE5F447 /* libPods-IonicPerfRN.a */; };
 		DF7225BC24F5C2FFFD500E33 /* libPods-IonicPerfRN-IonicPerfRNTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D75190E9301A96B2908D4A /* libPods-IonicPerfRN-IonicPerfRNTests.a */; };
 /* End PBXBuildFile section */
@@ -30,6 +30,7 @@
 		00E356EE1AD99517003FC87E /* IonicPerfRNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IonicPerfRNTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* IonicPerfRNTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IonicPerfRNTests.m; sourceTree = "<group>"; };
+		1304DD0E27D92A12008E79AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../ionic-perf-react/ios/App/App/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* IonicPerfRN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IonicPerfRN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = IonicPerfRN/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = IonicPerfRN/AppDelegate.m; sourceTree = "<group>"; };
@@ -37,7 +38,6 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = IonicPerfRN/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = IonicPerfRN/main.m; sourceTree = "<group>"; };
 		738D8718C37C6621670162F2 /* Pods-IonicPerfRN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IonicPerfRN.release.xcconfig"; path = "Target Support Files/Pods-IonicPerfRN/Pods-IonicPerfRN.release.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = IonicPerfRN/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9628BF530249CC45BAE5F447 /* libPods-IonicPerfRN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IonicPerfRN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B111D981900BF77FADF1B467 /* Pods-IonicPerfRN-IonicPerfRNTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IonicPerfRN-IonicPerfRNTests.debug.xcconfig"; path = "Target Support Files/Pods-IonicPerfRN-IonicPerfRNTests/Pods-IonicPerfRN-IonicPerfRNTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CAC8DB42B112261A0E823A35 /* Pods-IonicPerfRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IonicPerfRN.debug.xcconfig"; path = "Target Support Files/Pods-IonicPerfRN/Pods-IonicPerfRN.debug.xcconfig"; sourceTree = "<group>"; };
@@ -97,7 +97,7 @@
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
-				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				1304DD0D27D92A12008E79AB /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = IonicPerfRN;
@@ -250,8 +250,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				1304DD0F27D92A14008E79AB /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +432,17 @@
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1304DD0D27D92A12008E79AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1304DD0E27D92A12008E79AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {

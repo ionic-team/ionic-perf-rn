@@ -7,6 +7,7 @@ import {
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import React from 'react';
 import {SafeAreaView, StyleSheet, useColorScheme} from 'react-native';
+import RNBootSplash from 'react-native-bootsplash';
 import Icon from 'react-native-vector-icons/Ionicons';
 import DetailsScreen from './src/components/Details';
 import EmployeeDirectory from './src/components/EmployeeDirectory';
@@ -75,7 +76,9 @@ export default function App() {
 
   return (
     <SafeAreaView style={styles.bkgStyle}>
-      <NavigationContainer theme={isDarkMode ? DarkTheme : DefaultTheme}>
+      <NavigationContainer
+        theme={isDarkMode ? DarkTheme : DefaultTheme}
+        onReady={() => RNBootSplash.hide()}>
         <Tab.Navigator
           screenOptions={({route}) => ({
             tabBarStyle: {backgroundColor: isDarkMode ? 'black' : 'white'},

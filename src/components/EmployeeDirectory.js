@@ -26,7 +26,6 @@ export default function EmployeeDirectory({navigation}) {
               name={`${item.name.first} ${item.name.last}`}
               email={item.email}
               location={`${item.location.city}, ${item.location.state}`}
-              // onPress={() => navigation.navigate('Details')}
             />
           </TouchableOpacity>
         )}
